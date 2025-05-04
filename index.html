@@ -19,10 +19,10 @@
       <h1>Flip the coin</h1>
       <h2>Press the coin or the button to flip the coin</h2>
     </div>
-    <img src="assets/heads.svg" alt="Coin" id="coin" />
+    <img src="assets/heads.svg" alt="Coin" id="coin" role="button" tabindex="0" />
     <img src="assets/shadow.svg" alt="Coin shadow">
-    <span id="result">Heads</span>
-    <button id="flip" >RANDOM</button>
+    <div aria-live="polite"><span id="result">Heads</span></div>
+    <button id="flip" aria-label="Flip Coin">RANDOM</button>
 
     <!-- <div class="author-info">
       Coded by <a href="https://portfolio-pessoal-alpha-nine.vercel.app/">Erik Alves</a> | Challenge by
